@@ -1,0 +1,65 @@
+@keyframes green{
+  0% {background-color: green;}
+  25% {background-color: green;}
+  32% {background-color: gray;}
+  100%{background-color: gray;}
+}
+@keyframes yellow{
+	0%  {background-color: gray;}
+	25% {background-color: gray;}
+    33%  {background-color: yellow;}
+	60%  {background-color: yellow;}
+	66%  {background-color: gray;}
+}
+@keyframes red{
+	0%  {background-color: gray;}
+	32% {background-color: gray;}
+	60%  {background-color: gray;}
+    66%  {background-color: red;}
+	100%  {background-color: gray;}
+}
+
+div {
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	border-radius: 50%;
+	animation-duration: 9s;
+	animation-iteration-count: infinite;
+	text-align: center;
+	margin-top:10px;
+	margin-left: 15px;
+	color: white;
+	font-size: 60px;
+	vertical-align: middle ;
+	line-height: 90px;
+	
+}
+.light{
+	margin-left:40%;
+	border-radius: 5%;
+	width:130px;
+	height:330px;
+	background-color:black;
+}
+.green{
+	animation-duration: 9s;
+	animation-name: green;
+}
+.yellow{
+	animation-duration: 9s;
+	animation-name: yellow;
+	 transition: 1s;
+}
+.red{
+	animation-duration: 9s;
+	animation-name: red;
+}
+
+.green:hover {
+  transform: rotate(180deg);
+}
+
+.yellow:hover{
+	  transform: rotate(360deg);
+}
