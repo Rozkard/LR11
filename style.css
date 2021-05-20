@@ -1,9 +1,11 @@
 @keyframes green{
   0% {background-color: green;}
   10% {background-color: green;}
-  15% {background-color: green;}
-  20% {background-color: gray;}
-  25% {background-color: green;}
+  13% {background-color: green;}
+  15% {background-color: gray;}
+  20% {background-color: green;}
+  23% {background-color: gray;}
+  28% {background-color: green;}
   30% {background-color: gray;}
   32% {background-color: gray;}
   100%{background-color: gray;}
@@ -20,7 +22,7 @@
 	32% {background-color: gray;}
 	60%  {background-color: gray;}
     66%  {background-color: red;}
-	100%  {background-color: gray;}
+	100%  {background-color: red;}
 }
 
 div {
@@ -47,16 +49,16 @@ div {
 	background-color:black;
 }
 .green{
-	animation-duration: 9s;
+	animation-duration: 15s;
 	animation-name: green;
 }
 .yellow{
-	animation-duration: 9s;
+	animation-duration: 15s;
 	animation-name: yellow;
 	 transition: 1s;
 }
 .red{
-	animation-duration: 9s;
+	animation-duration: 15s;
 	animation-name: red;
 }
 
